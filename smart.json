@@ -1,0 +1,9 @@
+{
+  "name": "meteor-zipzap",
+  "description": "Zip package for Meteor",
+  "homepage": "https://github.com/udondan/meteor-zipzap",
+  "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "git": "https://github.com/udondan/meteor-zipzap.git"
+}
