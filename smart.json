@@ -1,9 +1,9 @@
 {
   "name": "zipzap",
-  "description": "Zip package for Meteor",
+  "description": "Zip and unzip files on server and clientside",
   "homepage": "https://github.com/udondan/meteor-zipzap",
   "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "license": "MIT",
   "git": "https://github.com/udondan/meteor-zipzap.git"
 }
