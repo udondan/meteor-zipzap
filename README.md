@@ -1,7 +1,7 @@
 zipzap
 =============
 
-A Zip package for Meteor. Create, read and edit .zip files with on server and client.
+A Zip package for Meteor. Create, read and edit .zip files on server and client.
 
 ##Install
 ```

@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Zip and unzip files on server and clientside",
+  summary: "Create, read and edit .zip files on server and client",
   environments: ['server', 'client']
 });
 

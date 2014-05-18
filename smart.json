@@ -1,6 +1,6 @@
 {
   "name": "zipzap",
-  "description": "Create, read and edit .zip files with on server and client",
+  "description": "Create, read and edit .zip files on server and client",
   "homepage": "https://github.com/udondan/meteor-zipzap",
   "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
   "version": "1.0.0",
