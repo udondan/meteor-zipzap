@@ -1,9 +1,9 @@
 {
   "name": "zipzap",
-  "description": "Zip and unzip files on server and clientside",
+  "description": "Create, read and edit .zip files with on server and client",
   "homepage": "https://github.com/udondan/meteor-zipzap",
   "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
-  "version": "0.2.3",
+  "version": "1.0.0",
   "license": "MIT",
   "git": "https://github.com/udondan/meteor-zipzap.git"
 }

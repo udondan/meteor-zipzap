@@ -1,7 +1,7 @@
 zipzap
 =============
 
-A Zip package for Meteor to zip and unzip files on server and clientside.
+A Zip package for Meteor. Create, read and edit .zip files with on server and client.
 
 ##Install
 ```
@@ -10,7 +10,7 @@ mrt add zipzap
 
 ##Usage
 ```
-var zip = new JSZip();
+var zip = new ZipZap();
 
 // Add content to Zip file
 zip.file('textfile.txt', 'Hello World');
