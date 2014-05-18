@@ -1,6 +1,3 @@
-[submodule "vendor/jszip"]
-	path = vendor/jszip
-	url = git://github.com/Stuk/jszip.git
 [submodule "vendor/filesaver"]
 	path = vendor/filesaver
 	url = git://github.com/udondan/FileSaver.js.git

@@ -3,6 +3,10 @@ Package.describe({
   environments: ['server', 'client']
 });
 
+Npm.depends({
+  'jszip': '2.2.2'
+});
+
 Package.on_use(function (api) {
   api.add_files('vendor/blob/Blob.js', 'client');
   api.add_files('vendor/jszip/dist/jszip.js', ['client', 'server']);
