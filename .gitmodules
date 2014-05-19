@@ -3,4 +3,4 @@
 	url = git://github.com/udondan/FileSaver.js.git
 [submodule "vendor/blob"]
 	path = vendor/blob
-	url = git://github.com/udondan/Blob.js.git
+	url = git://github.com/eligrey/Blob.js.git
