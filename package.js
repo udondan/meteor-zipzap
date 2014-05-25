@@ -4,7 +4,7 @@ Package.describe({
 });
 
 Npm.depends({
-  'jszip': '2.2.2'
+  'jszip': '2.2.3'
 });
 
 Package.on_use(function (api) {

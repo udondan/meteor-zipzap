@@ -1,6 +1,6 @@
-[submodule "vendor/filesaver"]
-	path = vendor/filesaver
-	url = git://github.com/udondan/FileSaver.js.git
 [submodule "vendor/blob"]
 	path = vendor/blob
 	url = git://github.com/eligrey/Blob.js.git
+[submodule "vendor/filesaver"]
+	path = vendor/filesaver
+	url = git://github.com/udondan/FileSaver.js.git
