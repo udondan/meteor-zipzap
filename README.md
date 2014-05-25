@@ -14,6 +14,8 @@ See browser limitations below.
 ##Online Demo
 https://zipzap.meteor.com/
 
+Code for demo: https://github.com/udondan/meteor-zipzap-demo
+
 
 ##Install
 ```
