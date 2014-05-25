@@ -7,7 +7,7 @@ A Zip package for Meteor. Create, read and edit .zip files on server and client.
 
 **Experimental!** This module is not stable due to lack of Browser support.
 
-The raw zip data can generated just fine. The problem is, there is no cross-browser support for saving local content to a file. Please do not ask for specific browser fixes. The problem needs to be addressed in [FileSaver.js][2].
+The raw zip data can be generated just fine. The problem is, there is no cross-browser support for saving local content to a file. Please do not ask for specific browser fixes here. The problem needs to be addressed in [FileSaver.js][2].
 
 See browser limitations below.
 
