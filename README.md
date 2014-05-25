@@ -3,6 +3,17 @@ ZipZap
 
 A Zip package for Meteor. Create, read and edit .zip files on server and client.
 
+##Status
+
+**Experimental!** This module is not stable due to lack of Browser support.
+
+The raw zip data can generated just fine. The problem is, there is no cross-browser support for saving local content to a file. Please do not ask for specific browser fixes. The problem needs to be addressed in [FileSaver.js][2].
+
+See browser limitations below.
+
+##Online Demo
+https://zipzap.meteor.com/
+
 
 ##Install
 ```
@@ -30,9 +41,18 @@ zip.saveAs("filename.zip");
 ##Limitations
 The `saveAs` method on client side is not supported by all browsers.
 
-Currently known to not work:
- - Safari 5 on Windows
- - Safari 7 on OS X saves file as "Unknown" due to limited support of opening Blob URL
+Currently known to **not work**:
+ - **Internet Explorer** < 10
+ - **Safari** 5 on Windows
+ - All browsers on **iOS**
+     - You could force Safari to show an open-with dialog if you'd overwrite the native Blob() with the shipped one. But as iOS can not handle Zip files there is not much left to do, other than sending it to an app like Google Drive, Dropbox or Box.
+     - All others have no reaction
+
+**Limited** support:
+ - **Safari** 7 on OS X, due to limited support of opening Blob URLs:
+     - files up to ~150MB are saved with name "Unknown" (loaded with data-uri). It's not recommended to create such big files, Safari is unresponsive for several minutes before the file is finally saved. It's probably hardware specific, but for me it loads for about 1~2 seconds per zipped MB.
+     - Bigger files are simply ignored by Safari, again after blocking some time.
+
 
 
 ##Used software
@@ -40,9 +60,6 @@ Currently known to not work:
  - [FileSaver.js][2] for saving client side generated files
  - [Blob.js][3] for Blob support in browsers which have no native implementation
 
-
-##Todo
- - Complete partially implemented callbacks
 
   [1]: https://github.com/Stuk/jszip
   [2]: https://github.com/eligrey/FileSaver.js
