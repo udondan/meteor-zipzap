@@ -19,7 +19,7 @@ Code for demo: https://github.com/udondan/meteor-zipzap-demo
 
 ##Install
 ```
-mrt add zipzap
+meteor add udondan:zipzap
 ```
 
 
